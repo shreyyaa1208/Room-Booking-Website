@@ -1,0 +1,91 @@
+.signup-modal {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.signup-header h2 {
+  font-size: 24px;
+  color: #2f6e53; /* Dark green color */
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-options {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.option-card {
+  flex: 1;
+  padding: 1.5rem;
+  text-align: center;
+  background: #f8f9fa; /* Light gray background */
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  /* transition: background 0.3s ease; */
+  cursor: pointer;
+}
+
+.option-card h3 {
+  font-size: 20px;
+  color: #2f6e53; /* Dark green color */
+  margin-bottom: 1rem;
+}
+
+.option-card p {
+  font-size: 14px;
+  color: #6c757d; /* Medium gray color */
+}
+
+.option-card:hover {
+  background: #e9ecef; /* Slightly darker background on hover */
+}
+
+.signup-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.signup-footer p {
+  font-size: 14px;
+  color: #6c757d; /* Medium gray color */
+}
+
+.signup-footer a {
+  color: #2f6e53; /* Dark green color */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-footer a:hover {
+  text-decoration: underline;
+}
+
+.option-card a {
+  text-decoration: none;
+}

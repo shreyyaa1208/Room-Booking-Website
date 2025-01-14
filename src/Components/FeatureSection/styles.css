@@ -1,0 +1,68 @@
+body {
+  font-family: '"Poppins",Helevetica,sans-serif';
+  margin: 0;
+}
+.feature-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-container {
+  flex: 1;
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.text-container h3 {
+  color: rgba(29, 62, 61, 1);
+  font-size: 51px;
+  font-weight: 600;
+}
+
+.text-container p {
+  font-size: 20px;
+  color: rgba(104, 106, 109, 1);
+}
+
+.kid-img {
+  width: 341px;
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-container h3 {
+  position: relative;
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.parking {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-section {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  padding: 21px;
+  gap: 21px;
+  width: 530px;
+  height: 145px;
+  flex-wrap: wrap;
+}

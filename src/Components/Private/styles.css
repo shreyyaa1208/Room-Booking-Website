@@ -1,0 +1,152 @@
+.private-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px;
+  background-color: white;
+}
+
+.private-header-text {
+  position: relative;
+  padding-left: 60px;
+  font-size: 41px;
+  color: rgb(29, 62, 61);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 90px;
+}
+
+.room-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 50px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.price-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sort-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.private-head {
+  position: relative;
+  padding-left: 60px;
+  font-size: 41px;
+  color: rgb(29, 62, 61);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding-right: 90px;
+}
+
+.card-button {
+  position: relative;
+  display: flex;
+  padding-right: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-btn {
+  font-size: 16px;
+  width: 137px;
+  height: 45px;
+  padding: 5px 10px;
+  background-color: rgba(0, 108, 90, 1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  height: 180px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 18px;
+}
+
+.room-img {
+  width: 336px;
+  height: 360px;
+}
+
+.place-room {
+  width: 336px;
+  height: 280px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  color: rgb(29, 62, 61);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-location {
+  margin: 8px 0 16px;
+  font-size: 14px;
+  color: rgb(0, 108, 90);
+}
+
+.location-icon {
+  margin-right: 5px;
+}

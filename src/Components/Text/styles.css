@@ -1,0 +1,33 @@
+.scrolling-strip {
+  width: 100%;
+  background-color: #04103b; /* Adjust to your preferred background color */
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0;
+  font-family: "Arial", sans-serif; /* Replace with the desired font */
+  font-size: 22px; /* Slightly larger font size */
+  color: white; /* High contrast text color */
+  text-transform: uppercase;
+  line-height: 35px; /* More line height for better readability */
+  font-weight: bold; /* Make the text bold for better visibility */
+  letter-spacing: 1px; /* Increase letter spacing for readability */
+}
+
+/* Container for the text animation */
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap; /* Ensure the text stays on one line */
+  animation: scrollText 100s linear infinite; /* Continuous slower scrolling */
+  animation-delay: 0s; /* Start immediately */
+  will-change: transform; /* Optimize for better rendering */
+}
+
+/* Continuous scrolling animation */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0); /* Start immediately at the visible position */
+  }
+  100% {
+    transform: translateX(-100%); /* Move off screen to the left */
+  }
+}

@@ -1,0 +1,134 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #ff5a5f;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+}
+
+
+
+
+.navbar-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #008080;
+  color: white;
+}
+
+.btn-login {
+  background-color: #ff8c00;
+  color: white;
+} */
+
+/* Base Navbar Styles */
+.navbar {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  position: fixed; /* Makes the navbar fixed */
+  top: 0; /* Positions the navbar at the top */
+  left: 0;
+  width: 96%; /* Full width */
+  z-index: 1000; /* Ensures it stays above other content */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Logo Styles */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #ff5a5f;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+}
+
+/* Button Styles */
+.navbar-buttons {
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-add {
+  border-radius: 20px;
+  background-color: #008080;
+  color: white;
+}
+
+.btn-login {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #ff8c00;
+  color: white;
+}
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Stack elements vertically */
+    align-items: flex-start; /* Align to the start */
+    padding: 1rem; /* Adjust padding for mobile */
+  }
+
+  .navbar-buttons {
+    text-decoration: none;
+    display: flex; /* Hide buttons initially */
+    flex-direction: row; /* Stack buttons vertically */
+    gap: 2rem; /* Smaller gap for mobile */
+    width: 100%; /* Make buttons full width */
+  }
+
+  .navbar.active .navbar-buttons {
+    display: flex; /* Show buttons when navbar is active */
+  }
+
+  .btn-add {
+    margin-left: 2rem;
+  }
+}

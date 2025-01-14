@@ -1,0 +1,116 @@
+.body {
+  font-family: '"Arimo", Helvetica,  Arial, sans-serif';
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-category-rooms {
+  width: 400px;
+  position: relative;
+  font-style: normal;
+
+  font-size: 40px;
+
+  color: black;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 90px;
+}
+
+.top-category-rooms .p {
+  margin-bottom: 0px;
+}
+
+.categories-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.categories {
+  padding-left: 30px;
+
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.category {
+  flex: 0 0 calc(33.333% - 20px);
+  margin-right: 20px;
+  width: 300px;
+  height: 250px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.category-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.category-info p {
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+.category-buttons {
+  padding-right: 30px;
+  position: relative;
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #1d3e3d;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.arrow:hover {
+  background-color: #f5f5f5;
+}
+
+.arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
